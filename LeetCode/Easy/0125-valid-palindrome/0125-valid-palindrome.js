@@ -23,3 +23,13 @@ var isPalindrome = function(s) {
     }
     return true;
 };
+
+/**
+    시간 복잡도
+        - 문자열 정제: replace와 toLowerCase는 각각 O(n)
+        - 회문 검사: 두 포인터를 사용하여 문자열 비교 O(n)
+        - 총합: O(n) + O(n) = O(n)
+    공간 복잡도
+        - 정제된 문자열(str)을 저장하므로 O(n)의 추가 메모리가 필요
+        - 총합: O(n)
+ */
