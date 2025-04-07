@@ -1,10 +1,10 @@
 # [level 0] 두 수의 차 구하기 - 120803 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120803?language=javascript) 
 
 ### 성능 요약
 
-메모리: 9.08 MB, 시간: 0.00 ms
+메모리: 33.4 MB, 시간: 0.04 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 03월 25일 00:00:47
+2025년 04월 08일 08:27:00
 
 ### 문제 설명
 
