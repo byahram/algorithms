@@ -7,6 +7,8 @@ def solution(array, height):
     # return count      
     
     # 2
-    array.append(height)
-    return sorted(array, reverse=True).index(height)
+    # array.append(height)
+    # return sorted(array, reverse=True).index(height)
    
+    # 3
+    return len(list(filter(lambda x:x > height, array)))
