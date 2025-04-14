@@ -1,1 +1,3 @@
-const solution = (array, n) => array.reduce((a,b) => n === b ? a+1 : a,0)
+function solution(array, n) {
+    return array.filter(v => v === n).length;
+}
