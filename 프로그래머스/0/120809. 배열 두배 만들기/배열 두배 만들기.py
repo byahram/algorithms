@@ -1,3 +1,5 @@
+import numpy as np 
+
 def solution(numbers):
     # 1
     # answer = []
@@ -6,4 +8,8 @@ def solution(numbers):
     # return answer
     
     # 2
-    return list(map(lambda x:x*2, numbers))
+    # return list(map(lambda x:x*2, numbers))
+    
+    # 3
+    numbers = np.array(numbers)
+    return (numbers * 2).tolist()
