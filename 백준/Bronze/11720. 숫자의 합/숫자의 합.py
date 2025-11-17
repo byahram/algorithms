@@ -1,5 +1,3 @@
-import sys
-
 N = int(input())
 numbers = list(input())
 sum = 0
