@@ -1,7 +1,9 @@
 def solution(num_list):
     mul = 1
-    for n in num_list:
-       mul *= n
+    add = 0
     
-    add = sum(num_list)
+    for n in num_list:
+        mul *= n
+        add += n
+    
     return 1 if mul < (add ** 2) else 0
