@@ -11,5 +11,8 @@ def solution(numbers):
     # return list(map(lambda x:x*2, numbers))
     
     # 3
-    numbers = np.array(numbers)
-    return (numbers * 2).tolist()
+    # numbers = np.array(numbers)
+    # return (numbers * 2).tolist()
+    
+    # 4
+    return [n * 2 for n in numbers]
