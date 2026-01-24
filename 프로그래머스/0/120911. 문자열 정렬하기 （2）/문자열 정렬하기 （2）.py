@@ -1,4 +1,6 @@
 def solution(my_string):
-    li = list(my_string.lower())
-    li.sort()
-    return "".join(li)
+    # li = list(my_string.lower())
+    # li.sort()
+    # return "".join(li)
+    
+    return "".join(sorted(my_string.lower()))
