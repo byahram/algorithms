@@ -1,7 +1,11 @@
 def solution(phone_book):
-    phone_book.sort()
+    hash_map = {number:True for number in phone_book}
     
-    for i in range(len(phone_book) - 1):
-        if phone_book[i+1].startswith(phone_book[i]):
-            return False
+    for phone_number in phone_book:
+        prefix = ""
+        for char in phone_number:
+            prefix += char
+            
+            if prefix in hash_map and prefix != phone_number:
+                return False
     return True
