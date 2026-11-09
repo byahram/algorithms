@@ -1,0 +1,14 @@
+-- 상반기 총주문량이 3000보다 높다
+--      TOTAL_ORDER > 3000
+-- 아이스크림 주 성분이 과일
+--      INGREDIENT_TYPE = 'fruit_based'
+-- 총주문량이 큰 순서대로
+--      ORDER BY TOTAL_ORDER DESC
+
+SELECT F.FLAVOR
+FROM FIRST_HALF AS F
+JOIN ICECREAM_INFO AS I
+    ON F.FLAVOR = I.FLAVOR
+WHERE F.TOTAL_ORDER > 3000
+    AND I.INGREDIENT_TYPE = 'fruit_based'
+ORDER BY F.TOTAL_ORDER DESC
